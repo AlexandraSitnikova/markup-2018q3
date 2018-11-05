@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="./images/favicon.ico" type="image/png" rel="shortcut icon">
+  <link href="./styles/font-face.css"  type="text/css" rel="stylesheet">
+  <link href="./styles/header.css" type="text/css" rel="stylesheet">
+  <link href="./styles/login-register.css" type="text/css" rel="stylesheet">
+  <link href="./styles/select-domain.css" type="text/css" rel="stylesheet">
+  <link href="./styles/packages.css" type="text/css" rel="stylesheet">
+  <link href="./styles/about-us.css" type="text/css" rel="stylesheet">
+  <link href="./styles/slider.css" type="text/css" rel="stylesheet">
+  <link href="./styles/support.css" type="text/css" rel="stylesheet">
+  <link href="./styles/footer.css" type="text/css" rel="stylesheet">
+  <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghost host</title>
+</head>
+
+<body>
+  <div class="main-content">
+    <header>
+      <div class="header-container">
+        <div class="logo-nav width-limiter">
+          <h1><img src="./images/header/logo.png" alt="Ghost Host" class="logo" /></h1>
+          <i class="fas fa-bars burger"></i>
+          <nav class="navigation">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Domain</a></li>
+              <li><a href="#">Hosting</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="greeting-box place-center">
+          <div class="greeting-title">
+            <p>HELLO!</p>
+          </div>
+          <div class="greeting-text">
+            <p> We love our work...</p>
+            <p>And We're taking it seriously...</p>
+          </div>
+        </div>
+      </div>
+      <div class="account-stripe place-center">
+        <div class="left-stripe"></div>
+        <div class="right-stripe"></div>
+        <div class="account-block width-limiter">
+          <div class="account-button place-center"><a href="#" id="login-button">LOGIN</a></div>
+          <div class="account-button place-center"><a href="#" id="register-button">REGISTER</a></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="buy-domain">
+        <p>Would you like to buy a new domain ?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse auctor mauris ac nulla interdum, id molestier.</p>
+        <div class="domain-bar">
+          <span>www.</span>
+          <input type="text" placeholder="What do you want?">
+          <select name="domain">
+            <option value=".com">.com</option>
+            <option value=".net">.net</option>
+            <option value=".org">.org</option>
+          </select>
+        </div>
+
+        <div class="table-domain-container">
+          <table class="table-domain">
+            <tr>
+              <td>.COM</td>
+              <td>1 Year</td>
+              <td>$9.00 USD</td>
+              <td>Transfer Price No</td>
+            </tr>
+            <tr class="table-domain-second-row">
+              <td>.NET</td>
+              <td>1 Year</td>
+              <td>$9.00 USD</td>
+              <td>Transfer Price No</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="packages-container">
+        <div class="background-packages">
+          <div class="background-fading "></div>
+          <div class="background"></div>
+        </div>
+        <div class="packages width-limiter">
+          <div class="basic-package packages-common-style">
+            <div class = "package-icon">
+              <div class="icon-container place-center basic-border">
+                <div id="basic-block1"></div>
+                <div id="basic-block2"></div>
+                <i class="fas fa-anchor icon"></i>
+              </div>
+            </div>
+            <table>
+              <caption>BASIC PACKAGE</caption>
+              <tr>
+                <td>Disk Space (GB)</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Subdommains</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Transfer (GB)</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Data bases</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Dashboards</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Control Panel & FTP</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Free Support</td>
+                <td></td>
+              </tr>
+            </table>
+            <div class="price">
+              <span class="price-value">15</span><span class="price-month">/Mo</span>
+            </div>
+            <hr>
+            <div class="button-container">
+                <button class="select-package">SELECT PLAN</button>
+            </div>
+          </div>
+
+          <div class="normal-package packages-common-style">
+            <div class = "package-icon">
+              <div class="icon-container place-center normal-border">
+                <div id="normal-block1"></div>
+                <i class="fas fa-star-half-empty icon"></i>
+              </div>
+            </div>
+            <table>
+              <caption>NORMAL PACKAGE</caption>
+              <tr>
+                <td>Disk Space (GB)</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>Subdommains</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>Transfer (GB)</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>Data bases</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Dashboards</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Control Panel & FTP</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Free Support</td>
+                <td></td>
+              </tr>
+            </table>
+            <div class="price normal-price-color">
+              <span class="price-value">30</span><span class="price-month">/Mo</span>
+            </div>
+            <hr>
+            <div class="button-container">
+              <button class="select-package">SELECT PLAN</button>
+            </div>
+          </div>
+
+          <div class="big-package packages-common-style">
+            <div class = "package-icon">
+              <div class="icon-container place-center big-border">
+                <div id="big-block1"></div>
+                <i class="fas fa-star icon"></i>
+              </div>
+            </div>
+            <table>
+              <caption>BIG PACKAGE</caption>
+              <tr>
+                <td>Disk Space (GB)</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>Subdommains</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>Transfer (GB)</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>Data bases</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Dashboards</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Control Panel & FTP</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Free Support</td>
+                <td></td>
+              </tr>
+            </table>
+            <div class="price big-price-color">
+              <span class="price-value">40</span><span class="price-month">/Mo</span>
+            </div>
+            <hr>
+            <div class="button-container">
+              <button class="select-package">SELECT PLAN</button>
+            </div>
+          </div>
+
+          <div class="biggest-package packages-common-style">
+            <div class = "package-icon">
+              <div class="icon-container place-center biggest-border">
+                <i class="fas fa-diamond"></i>
+              </div>
+            </div>
+            <table>
+              <caption>BIGGEST PACKAGE</caption>
+              <tr>
+                <td>Disk Space (GB)</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td>Subdommains</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td>Transfer (GB)</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td>Data bases</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Dashboards</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Control Panel & FTP</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Free Support</td>
+                <td></td>
+              </tr>
+            </table>
+            <div class="price biggest-price-color">
+              <span class="price-value">70</span><span class="price-month">/Mo</span>
+            </div>
+            <hr>
+            <div class="button-container">
+              <button class="select-package">SELECT PLAN</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="designers-info width-limiter">
+        <div class="about-us">
+          <a href="#"> <span>About</span> Us</a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Praesent feugiat eget diam sit amet molestie.Curabitur. 
+            ut ipsum bibendum tortor lacinia fermentum nec joeıa.
+            Mauris at augue libero. Fusce posuere, sapien nec poır.
+            Uaee augsuada sed mauris in tincidunt...
+          </p>
+        </div>
+        <hr class="divider">
+        <div class="authors-container">
+          <div class="author">
+            <img src="./images/main/jonny-doe.png" alt="designer-photo" />
+            <span class="author-name">Jonny Doe</span>
+            <span>Designer</span>
+            <div class="author-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="author">
+            <img src="./images/main/john-doe.png" alt="designer-photo" />
+            <span class="author-name">Jonny Doe</span>
+            <span>Designer</span>
+            <div class="author-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="author">
+            <img src ="./images/main/johnatan-doe.png" alt="designer-photo" />
+            <span class="author-name">Johnatan Doe</span>
+            <span>Designer</span>
+            <div class="author-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="slider">
+        <div class="background-fading"></div>
+        <div class="background"></div>
+        <div class="slider-content place-center">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <div id="slides">
+              <div id="overflow">
+                <div class="inner">
+                  <div class="page">
+                    “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                    interdum dolor pulvinar vitae.” 
+                  </div>
+                  <div class="page">
+                    “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                    interdum dolor pulvinar vitae.” 
+                  </div>
+                  <div class="page">
+                    “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                    interdum dolor pulvinar vitae.” 
+                  </div>
+                </div>
+              </div> 
+            </div> 
+            <div class="slider-buttons">
+              <span>John Doe |</span>
+              <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+              </div>
+              
+              <div id="active">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="support-container width-limiter">
+        <div class="support">
+          <a href="#">
+            <div class="fast-servers support-icon place-center">
+              <i class="fas fa-flash"></i>
+            </div>
+          </a>
+          <span class="support-name">Fast Servers</span>
+          <p>
+            Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.
+          </p>
+        </div>
+        
+        <div class="support">
+          <a href="#">
+            <div class="cloud-servers support-icon place-center">
+              <i class="fas fa-cloud"></i>
+            </div>
+          </a>
+          <span class="support-name">Cloud Servers</span>
+          <p>
+            Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.
+          </p>
+        </div>
+
+        <div class="support">
+            <a href="#">
+              <div class="domain-transfer support-icon place-center">
+                <i class="fas fa-arrows"></i>
+              </div>
+            </a>
+          <span class="support-name">Domain Transfer</span>
+          <p>
+            Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.
+          </p>
+        </div>
+        
+        <div class="support">
+          <a href="#">
+            <div class="life-support support-icon place-center">
+              <i class="fas fa-comments"></i>
+            </div>
+          </a>
+          <span class="support-name">Life Support</span>
+          <p>
+            Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.
+          </p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div class="logo-nav-footer width-limiter">
+      <img src="./images/footer/logo-footer.png" alt="logo" class="logo-footer" />
+      <i class="fas fa-bars burger"></i>
+      <nav class="navigation-footer">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">POLICY</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-info width-limiter place-center">
+      <div class="text-info">
+        <p>Lorem ipsum dolor sit amet, consecteteeseurı
+          adipiscing elit. Donec mollis commodoeesene
+          que, non commodo risus volutpat vel.
+        </p>
+        <p class="designer-by">Design by <span class="designer-name">Mert Can Eyriyer.</span></p>
+      </div>
+      <hr class="divider">
+      <div class="options">
+        <nav>
+          <ul class="foot-nav">
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Support</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Account</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Product Catalog</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Shortcodes</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="foot-nav">
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Site Map</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Whois Search</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Web Mail</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right footer-bullet"></i>Find Domain</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr class="divider">
+      <div class="contacts">
+        <ul>
+          <li><a href="tel: +000000000000"><i class="fas fa-phone"></i> 0000-0000-0000</a></li>
+          <li><a href="mailto: informationteam@ghosthost.com"><i class="fas fa-envelope"></i>
+              informationteam@ghosthost.com</a></li>
+          <p>Lorem Ipsum Street, Lorem Avenue,
+            Lorem Ipsum</p>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

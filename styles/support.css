@@ -1,0 +1,60 @@
+.support-container {
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 15px;
+    color: #989898;
+    text-align: center;
+}
+
+.support-name {
+    font-family: 'Lato-Heavy', sans-serif;
+    font-weight: bold;
+    color: #303030;
+}
+
+.support-container p {
+    margin: 5px 0;
+}
+
+.support-icon {
+    border-radius: 50%;
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.support a {
+    text-decoration: none;
+    color: white;
+}
+
+.fast-servers {
+    background: #f1c40f;
+}
+
+.cloud-servers {
+    background-color: #0faff1;
+}
+
+.domain-transfer {
+    background-color: #95a5a6;
+}
+
+.life-support {
+    background-color: #f1540f;
+}
+
+
+@media (max-width: 830px) {
+    .support-container {
+        flex-wrap: wrap;
+    }
+
+    .support {
+        margin: 0 auto;
+    }
+}

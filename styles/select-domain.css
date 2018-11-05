@@ -1,0 +1,91 @@
+.buy-domain {
+    max-width: 900px;
+    margin: 60px auto;
+    color: #d9d9d9;
+}
+
+.buy-domain p {
+    color: #a2a2a2;
+    text-align: center;
+    font-size: 18px; 
+    font-family: 'Lato-Medium', sans-serif;
+}
+
+.buy-domain p:first-child {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.domain-bar {
+    border: 1px solid;
+    border-radius: 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lato-Medium', sans-serif;
+}
+
+.domain-bar span {
+    font-size: 15px;
+    padding: 5px;
+    border-right: 1px solid #d9d9d9;
+}
+
+.domain-bar input {
+    border: 0;
+    font-size: 20px;
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.domain-bar select {
+    border: 0;
+    border-left: 1px solid #d9d9d9;
+    font-size: 15px;
+    padding: 5px;
+    color: #d9d9d9;
+}
+
+
+.table-domain-container {
+    border: 1px solid #d9d9d9;
+    margin: 40px auto 60px;
+}
+
+.table-domain {
+    padding: 9px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table-domain td {
+    position: relative;
+    text-align: center;
+    height: 100px;
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+
+.table-domain td:last-child {
+    border-right: 0px;
+}
+
+.table-domain-second-row td {
+    border-bottom: 0px;
+}
+
+.table-domain-second-row td:not(:first-child)::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background:white;
+    left: -11px;
+    top: -12px;
+    border-radius: 50%;
+}

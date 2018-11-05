@@ -1,0 +1,44 @@
+.account-stripe {
+    height: 100px;
+    position: relative;
+    background: #21424b;
+  }
+  
+  .left-stripe {
+    height: 100%;
+    width: calc(50% - 25px);
+  }
+  
+  .right-stripe {
+    background: #21424b;
+    height: 100%;
+    width: calc(50% + 25px);
+    border-bottom: 100px solid #2fab6c;
+    border-left: 40px solid transparent;
+    border-right: 0;
+    height: 0;
+  }
+  
+  .account-block {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .account-button {
+    height: 100%;
+  }
+
+  .account-button:hover {
+    font-weight: bold;
+  }
+  
+  .account-stripe a {
+    color: #f8eeee;
+    text-decoration: none;
+    font-family: 'Lato-Medium', sans-serif;
+  }
